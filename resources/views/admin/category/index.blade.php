@@ -45,7 +45,7 @@
                           @foreach ($categories as $category)
                         <tr>
                           <td>{{ $category->category_name }}</td>
-                          <td>{{ $category->description }}</td>
+                          <td>{!! $category->description !!}</td>
                           <td>{{ $category->action }}
                             <div>
                               <a class="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="" href="{{ route('category.edit',$category->id) }}" data-original-title="Edit"><i class="fas fa-pencil-alt"></i></a>

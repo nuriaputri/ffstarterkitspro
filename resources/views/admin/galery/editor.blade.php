@@ -36,30 +36,27 @@
                     <input type="text" name="tittle" class="form-control" value="{{ @$galery->tittle }}">
                   </div>
                 </div>
-                <div class="form-group row align-items-center">
-                    <label class="form-control-label col-sm-3 text-md-right">Image</label>
-                    <div class="col-sm-12 col-md-7">
-                      <div class="custom-file">
-                        <input type="file" name="image" class="custom-file-input" id="site-logo">
-                        <label class="custom-file-label">{{ @$galery->media }} Choose File</label>
-                      </div>
-                    </div>
-                </div>
                 <div class="form-group row mb-4">
+                  <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Image</label>
+                  <div class="col-sm-12 col-md-7">
+                  <input type="file" name="media" class="form-control" value="{{ @$galery->media }}"></div>
+                </div>
+                {{-- <div class="form-group row mb-4">
                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3">Preview</label>
                     <div class="col-sm-12 col-md-7">
-                      <div id="image-preview" class="image-preview" style="background-image: none; background-size: cover; background-position: center center;">
-                        <label for="image-upload" id="image-label">{{ @$galery->media }} Choose File</label>
-                        <input type="file" name="preview" id="image-upload">
+                      <div id="image-preview" class="image-preview"  style="background-image: none; background-size: cover; background-position: center center;">
+                        <label for="image-upload" id="image-label"> Choose File</label>
+                        <input type="file" name="media"  value="{{ @$galery->media }}" id="image-upload" >
                       </div>
                     </div>
-                  </div>
+                </div> --}}
+
                 <div class="form-group row mb-4">
                     <label class="col-form-label text-md-right col-12 col-md-3 col-lg-3"></label>
                     <div class="col-sm-12 col-md-7">
                       <button class="btn btn-primary">Upload</button>
                     </div>
-                  </div>
+                </div>
               </div>
             </form>
             </div>

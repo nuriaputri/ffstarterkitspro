@@ -5,19 +5,22 @@
     <div class="row">
         <div class="col-sm-0 main">
             <div class="album-title">Photo Gallery</div>
+
+            
             <div class="album-description">Cras vitae augue varius, commodo lectus eget, tempor mi. Aliquam a
                 malesuada nisi. Fusce ac leo sed mauris finibus tempor. Quisque vitae auctor enim. Duis
                 imperdiet nulla eu malesuada convallis. Aenean consequat nec dui sed mattis.</div>
 
             <div class="album-wrapper">
                 <!--Start album wrapper -->
-
+                
                 <div class="thumbnail-wrap" style="width:311px; height:311px;">
                     <div class="thumbnail-frame" style="width:311px;">
                         <a href="#"><img src="../../landing/assets/images/gallery/2.jpg" alt="alex-siale-95113-unsplash.jpg" width="311" height="311"></a>
                         <p class="thumbnail-caption">Green mountains</p>
                     </div>
                 </div>
+                
 
                 <div class="thumbnail-wrap" style="width:311px; height:311px;">
                     <div class="thumbnail-frame" style="width:311px;">
